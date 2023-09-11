@@ -18,7 +18,8 @@ function Header () {
     );
 };
 
-function Appbody () {
+function Appbody (props) {
+    const { name } = props;
     return(
         <h1>Essa é a sua agenda descomplicada para o dia a dia!</h1>
     );
