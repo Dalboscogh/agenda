@@ -1,5 +1,5 @@
 import React from 'react';
-import { tailwind } from "tailwindcss";
+import "/index.css"
 
 
 export default function Home () {
