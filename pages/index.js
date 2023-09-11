@@ -2,9 +2,12 @@ import React from 'react';
 
 export default function Home () {
     return(
-        <Header />
-        <Appbody/>
-        <Footer />
+        <div>
+            <Header />
+            <Appbody />
+            <Footer />
+        </div>
+        
     );
 };
 
