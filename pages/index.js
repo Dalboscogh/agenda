@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Home () {
     return(
         <div>
@@ -14,7 +15,6 @@ export default function Home () {
 const Header = () => {
     return (
       <header className="flex justify-between items-center py-4 px-4 bg-gray-800">
-        <h1 className="text-white">My App</h1>
         <nav className="flex items-center">
           <a href="/" className="text-white">Home</a>
           <a href="/agenda" className="text-white">Agenda</a>
