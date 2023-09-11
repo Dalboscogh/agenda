@@ -11,19 +11,6 @@ export default function Home () {
     );
 };
 
-function Header () {
-    return(
-        <div className=''>
-            <p>Agenda</p>
-            <p>Profissionais</p>
-            <p>Clientes</p>
-            <p>Serviços</p>
-            <p>Relatórios</p>
-        </div>
-        
-    );
-};
-
 const Header = () => {
     return (
       <header className="flex justify-between items-center py-4 px-4 bg-gray-800">
