@@ -1,0 +1,22 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma agenda com sistema financceiro e integrações",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dalboscogh/agenda.git"
+  },
+  "author": "Dalboscogh e pamellalovatto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dalboscogh/agenda/issues"
+  },
+  "homepage": "https://github.com/Dalboscogh/agenda#readme",
+  "dependencies": {
+    "next": "^13.1.6"
+  }
+}
