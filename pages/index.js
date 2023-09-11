@@ -20,7 +20,7 @@ function Header () {
 
 function Appbody () {
     return(
-        <h1>Agenda descomplicada para o dia a dia!</h1>
+        <h1>Essa é a sua agenda descomplicada para o dia a dia!</h1>
     );
 };
 
