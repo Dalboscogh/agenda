@@ -2,7 +2,37 @@ import React from 'react';
 
 export default function Home () {
     return(
-        <h1>Te amo demais, meu amor! Obrigada por ser você! Tenho muita sorte por ter o melhor professor do mundo s2</h1>
+        <Header />
+        <Appbody name="Picapau" />
+        <Footer />
+    );
+};
 
+function Header () {
+    return(
+        <p>Agenda</p>
+        <p>Profissionais</p>
+        <p>Clientes</p>
+        <p>Serviços</p>
+        <p>Relatórios</p>
+    );
+};
+
+function Appbody () {
+    return(
+        <h1>Agenda descomplicada para o dia a dia!</h1>
+    );
+};
+
+function Footer () {
+    return(
+        <p>Agenda</p>
+        <p>Profissionais</p>
+        <p>Clientes</p>
+        <p>Serviços</p>
+        <p>Relatórios</p>
+        <p>Acessibilidade</p>
+        <p>Ajuda</p>
+        <p>Fale conosco</p>
     );
 };
