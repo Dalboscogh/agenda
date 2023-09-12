@@ -1,5 +1,5 @@
 import React from 'react';
-import "/index.css"
+import "./index.css";
 
 
 export default function Home () {
@@ -15,7 +15,7 @@ export default function Home () {
 
 const Header = () => {
     return (
-      <header className="flex justify-between items-center py-4 px-4 bg-gray-800">
+      <header>
         <nav className="flex items-center">
           <a href="/" className="text-white">Home</a>
           <a href="/agenda" className="text-white">Agenda</a>
